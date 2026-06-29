@@ -1,0 +1,16 @@
+# 1. Ignora la cartella del dataset (e il suo contenuto)
+waste_type_identification/
+
+# 2. Ignora tutte le immagini
+*.png
+*.jpg
+*.jpeg
+
+# 3. Ignora i file PDF
+*.pdf
+
+# Ignora SEMPRE l'ambiente virtuale (non va mai caricato su Git)
+.venv/
+
+# Ignora file di sistema Apple 
+__MACOSX/
